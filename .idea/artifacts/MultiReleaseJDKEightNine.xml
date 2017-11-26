@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MultiReleaseJDKEightNine">
+    <output-path>$PROJECT_DIR$/out/artifacts/MultiReleaseJDKEightNine</output-path>
+    <root id="archive" name="MultiReleaseJDKEightNine.jar">
+      <element id="module-output" name="jdk8-impl" />
+      <element id="module-output" name="jdk9-impl" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/jdk8-impl/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
