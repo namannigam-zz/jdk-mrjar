@@ -7,7 +7,7 @@ public class StackParser implements StackInfo {
 
     @Override
     public String getStackCount() {
-        return "Java 9: " + StackWalker.getInstance()
+        return "Java 9: " + StackWalker.getInstance(StackWalker.Option.RETAIN_CLASS_REFERENCE)
                 .walk(Stream::count);
     }
 
