@@ -1,10 +1,8 @@
-# jdk9-mrjar
+# Package as the current project strucutre.
 
-## Package as the current project strucutre.
+# Create the artifacts following the steps in https://blog.jetbrains.com/idea/2017/10/creating-multi-release-jar-files-in-intellij-idea/
 
-## Create the artifacts following the steps in https://blog.jetbrains.com/idea/2017/10/creating-multi-release-jar-files-in-intellij-idea/
-
-## Execute the JAR as follows:-
+# Execute the JAR as follows:-
 ➜  /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin/java -jar out/artifacts/MultiReleaseJDKEightNine/MultiReleaseJDKEightNine.jar
 
 Java 8: 3
